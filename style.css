@@ -1,6 +1,16 @@
+#clouds{
+	padding: 100px 0;
+    background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	
+}
+
+
 .cloud {
 	width: 200px; height: 60px;
-	background: #000;
+	background: #fff;
 	border-radius: 200px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
@@ -11,7 +21,7 @@
 .cloud:before, .cloud:after {
 	content: '';
 	position: absolute; 
-	background: #000;
+	background: #fff;
 	width: 100px; height: 80px;
 	border: 1px solid white; /*Just to see it */
     position: absolute; top: -15px; left: 10px;
