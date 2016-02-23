@@ -4,6 +4,8 @@
 	border-radius: 200px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
+    
+    position: relative; 
 }
 
 .cloud:before, .cloud:after {
@@ -12,9 +14,20 @@
 	background: #000;
 	width: 100px; height: 80px;
 	border: 1px solid white; /*Just to see it */
+    position: absolute; top: -15px; left: 10px;
     
     border-radius: 100px;
 	-moz=border-radius: 100px;
 	border-radius: 100px;
+    
+    position: absolute;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
 	
 }
