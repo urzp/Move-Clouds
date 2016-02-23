@@ -57,11 +57,25 @@ body {
 }
 
 /*Time to animate*/
-.cloud {
+.x1 {
 	-webkit-animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;
 	-o-animation: moveclouds 15s linear infinite;
 }
+
+.x2 {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+
+
+
 
 @-webkit-keyframes moveclouds {
 	0% {margin-left: 1000px;}
