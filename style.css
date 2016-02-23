@@ -1,0 +1,20 @@
+.cloud {
+	width: 200px; height: 60px;
+	background: #000;
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #000;
+	width: 100px; height: 80px;
+	border: 1px solid white; /*Just to see it */
+    
+    border-radius: 100px;
+	-moz=border-radius: 100px;
+	border-radius: 100px;
+	
+}
