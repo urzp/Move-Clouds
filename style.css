@@ -31,3 +31,8 @@
 	-moz-transform: rotate(30deg);
 	
 }
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
